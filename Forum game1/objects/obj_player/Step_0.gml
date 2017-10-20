@@ -40,3 +40,9 @@ vsp = vsp + grv;
 move_left = 0;
 move_right = 0;
 jump = 0;
+
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 280003E2
+/// @DnDArgument : "msg" "health"
+show_debug_message(string(health));

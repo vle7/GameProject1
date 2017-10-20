@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3BA3C25B
-/// @DnDInput : 8
+/// @DnDInput : 9
 /// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_2" "5"
 /// @DnDArgument : "expr_3" "-13"
@@ -14,6 +14,7 @@
 /// @DnDArgument : "var_5" "move_right"
 /// @DnDArgument : "var_6" "jump"
 /// @DnDArgument : "var_7" "can_throw"
+/// @DnDArgument : "var_8" "invincible"
 vsp = 0;
 grv = 1;
 walkspeed = 5;
@@ -22,6 +23,7 @@ move_left = 0;
 move_right = 0;
 jump = 0;
 can_throw = 1;
+invincible = 0;
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
