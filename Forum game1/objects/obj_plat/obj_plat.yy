@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_plat",
     "eventList": [
-        
+        {
+            "id": "bc5bdee1-e15e-44c4-b041-86a0da7ea8aa",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f590de26-cd8f-4ea8-acb5-c028ea162203"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
