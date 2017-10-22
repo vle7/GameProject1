@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "5a33b40d-ec97-45f3-b4a6-bbe8d7dee957",
+            "Value": {
+                "id": "77aab5da-a5f3-41ca-8575-4bcc78d50b72",
+                "resourcePath": "objects\\obj_target\\obj_target.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "711cfe1d-562c-4f0b-9e7a-8f7700224728",
             "Value": {
                 "id": "06be115f-b03e-4331-8f20-5e37446d0fb5",
@@ -276,6 +284,14 @@
                 "id": "39e0ee97-9167-4b3b-b374-f8ee4e445a23",
                 "resourcePath": "views\\d87626e4-1e4e-48ed-b9ce-6dc4d8becc4e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "da64a2de-0b98-4317-a259-5a095c49a275",
+            "Value": {
+                "id": "d1b1203d-3bba-4e2b-9c95-f6a7472d8106",
+                "resourcePath": "objects\\semicircle_movement\\semicircle_movement.yy",
+                "resourceType": "GMObject"
             }
         },
         {
