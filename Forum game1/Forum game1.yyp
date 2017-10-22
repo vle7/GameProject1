@@ -242,7 +242,7 @@
             "Key": "c954477e-b7ab-475b-87f4-af609ce5148c",
             "Value": {
                 "id": "34c0aa6b-75bd-4555-b744-42d298849bc3",
-                "resourcePath": "sounds\\sound0\\sound0.yy",
+                "resourcePath": "sounds\\stage\\stage.yy",
                 "resourceType": "GMSound"
             }
         },
