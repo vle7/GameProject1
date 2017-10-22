@@ -110,6 +110,12 @@ if(state == 2)
 	/// @DnDArgument : "expr" "hit"
 	if(hit)
 	{
-	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 204BCE47
+		/// @DnDParent : 26CB17A9
+		/// @DnDArgument : "expr" "-10"
+		/// @DnDArgument : "var" "health"
+		health = -10;
 	}
 }

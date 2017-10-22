@@ -10,12 +10,13 @@
 /// @DnDArgument : "var_2" "grv"
 /// @DnDArgument : "var_3" "vsp"
 /// @DnDArgument : "var_4" "move"
+/// @DnDArgument : "var_5" "attack_range"
 state = 0;
 walkspeed = 2;
 grv = 1;
 vsp = 0;
 move = 1;
-variable = 0;
+attack_range = 0;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

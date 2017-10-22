@@ -1,3 +1,12 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2E50D541
+/// @DnDArgument : "var" "state"
+if(state == 0)
+{
+
+}
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 456D10C6
