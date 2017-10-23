@@ -16,8 +16,8 @@ if(state == 2)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6EA4066F
 	/// @DnDParent : 470D3DA1
-	/// @DnDArgument : "spriteind" "sprite5"
+	/// @DnDArgument : "spriteind" "spr_doll_boss"
 	/// @DnDSaveInfo : "spriteind" "99f5d98e-299c-4c38-9bfc-75fb144e6ec9"
-	sprite_index = sprite5;
+	sprite_index = spr_doll_boss;
 	image_index = 0;
 }
