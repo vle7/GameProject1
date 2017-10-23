@@ -5,7 +5,7 @@ if (!dboss_inv){
 }
 
 
-if (h < 0)
+if (h <= 0)
 {
 	instance_destroy(obj_doll_boss)
 }

@@ -1,12 +1,14 @@
 //
 
 xdif = dsin(theta) * xdiff
-ydif = abs(dcos(theta)) * abs(distance - ydiff)
+ydif = ydiff + abs(dcos(theta)) * abs(distance - ydiff) 
 
 x = target.x + xdif
 y = target.y + ydif
 
-theta += 1
+theta += 4
 if(theta == 360){
 	theta = 0
 }
+show_debug_message(ydif)
+show_debug_message(xdiff)
