@@ -1,10 +1,6 @@
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 63F7B6D6
-alarm_set(0, 30);
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 79952B05
-/// @DnDArgument : "code" "move *= -1"
-move *= -1
+/// @DnDHash : 36CB9E2F
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "dboss_inv"
+dboss_inv = false;
