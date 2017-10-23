@@ -170,7 +170,7 @@
             "Key": "5a33b40d-ec97-45f3-b4a6-bbe8d7dee957",
             "Value": {
                 "id": "77aab5da-a5f3-41ca-8575-4bcc78d50b72",
-                "resourcePath": "objects\\obj_target\\obj_target.yy",
+                "resourcePath": "objects\\obj_hook\\obj_hook.yy",
                 "resourceType": "GMObject"
             }
         },

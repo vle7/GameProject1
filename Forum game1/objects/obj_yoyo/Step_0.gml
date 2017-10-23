@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 0DD0FD53
 /// @DnDArgument : "var" "go_back"
-/// @DnDArgument : "value" "1"
-if(go_back == 1)
+/// @DnDArgument : "value" "true"
+if(go_back == true)
 {
 	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 	/// @DnDVersion : 1
@@ -49,10 +49,10 @@ if(go_back == 1)
 			/// @DnDHash : 746E8E68
 			/// @DnDApplyTo : aaf0757a-d0cb-4853-846f-7ddeacc0edc5
 			/// @DnDParent : 621F6FBC
-			/// @DnDArgument : "expr" "1"
+			/// @DnDArgument : "expr" "true"
 			/// @DnDArgument : "var" "can_throw"
 			with(obj_player) {
-			can_throw = 1;
+			can_throw = true;
 			
 			}
 		}
