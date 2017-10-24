@@ -1,12 +1,12 @@
-var mov = obj_solid
-var mow = obj_breakable
+var mov = obj_wall
 
 var hspd = -2
-var not_wall = !place_meeting(x + hspd, y, mov)
+var not_wall = !place_meeting(x + (hspd * move), y, mov)
 
-if (no_wall) {
-	x+=hspd
+if (not_wall) {
+	x+=hspd * move
 }
 else {
-	state = scr_move_left
+	//state = scr_move_left
+	move *= -1
 }
