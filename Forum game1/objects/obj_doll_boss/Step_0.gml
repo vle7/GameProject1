@@ -9,8 +9,8 @@ if(state == 1)
 		
 		
 		with(obj_player) {
-		alarm_set(0, 30)
-		health += -15;
+			alarm_set(0, 30)
+			health += -15;
 		}
 	}
 	//check for state transitions
@@ -51,12 +51,14 @@ else if(state == 0)
 		move = 1
 	}
 	//check for state transitions
-	if(collision_rectangle(((sprite_width/2)-20)+ x,y + (sprite_height/2),x+ (sprite_width/2) + 30,y- (sprite_height/2),obj_player,false,false))
+	if(collision_rectangle((((sprite_width/2)-20)*move)+ x,y + (sprite_height/2),x+ move*((sprite_width/2) + 50),y- (sprite_height/2),obj_player,false,false) and can_attack)
 	{
 		state = 1
 		sprite_index = spr_doll_attack
+		can_attack = false
+		alarm_set(1, 120)
 	}
-	
+	/*
 	if (h < 33){
 		flag = true
 	}
@@ -66,6 +68,7 @@ else if(state == 0)
 		flag = false
 		minion = instance_create_layer(10,20,"Instances",obj_doll1)
 	}
+	*/
 		
 }
 /*

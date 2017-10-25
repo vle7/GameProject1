@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 470D3DA1
 /// @DnDArgument : "var" "state"
-/// @DnDArgument : "value" "2"
-if(state == 2)
+/// @DnDArgument : "value" "1"
+if(state == 1)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
