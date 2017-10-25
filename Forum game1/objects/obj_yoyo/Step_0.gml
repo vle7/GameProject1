@@ -38,12 +38,6 @@ if(go_back == true)
 		/// @DnDArgument : "value" "7"
 		if(abs(y - obj_player.y) <= 7)
 		{
-			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-			/// @DnDVersion : 1
-			/// @DnDHash : 228604FB
-			/// @DnDParent : 621F6FBC
-			instance_destroy();
-		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 746E8E68
@@ -55,6 +49,12 @@ if(go_back == true)
 			can_throw = true;
 			
 			}
+		
+			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 228604FB
+			/// @DnDParent : 621F6FBC
+			instance_destroy();
 		}
 	}
 }

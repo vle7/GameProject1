@@ -23,6 +23,9 @@ if(!(aboss_inv))
 
 	alarm_set(1, 30);
 	if(ah <= 0){
+		with(obj_player){
+			health = 100
+		}
 		room_goto_next()
 	}
 }

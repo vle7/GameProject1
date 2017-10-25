@@ -9,9 +9,9 @@ instance_destroy();
 /// @DnDInput : 2
 /// @DnDApplyTo : aaf0757a-d0cb-4853-846f-7ddeacc0edc5
 /// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "state"
+/// @DnDArgument : "var" "st"
 with(obj_player) {
-state = 1;
+st = 1;
 variable = 0;
 
 }

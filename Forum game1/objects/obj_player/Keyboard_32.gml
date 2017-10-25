@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 722C8DDF
-/// @DnDArgument : "var" "state"
+/// @DnDArgument : "var" "st"
 /// @DnDArgument : "value" "1"
-if(state == 1)
+if(st == 1)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -11,10 +11,10 @@ if(state == 1)
 	/// @DnDInput : 3
 	/// @DnDParent : 722C8DDF
 	/// @DnDArgument : "expr_1" "-15"
-	/// @DnDArgument : "var" "state"
+	/// @DnDArgument : "var" "st"
 	/// @DnDArgument : "var_1" "vsp"
 	/// @DnDArgument : "var_2" "hsp"
-	state = 0;
+	st = 0;
 	vsp = -15;
 	hsp = 0;
 

@@ -8,5 +8,8 @@ if (!boss_inv){
 if (h <= 0)
 {
 //	instance_destroy(self)
+	with(obj_player){
+		health = 100
+	}
 	room_goto_next()
 }

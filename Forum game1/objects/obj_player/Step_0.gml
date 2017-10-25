@@ -1,14 +1,14 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 367521FE
-/// @DnDArgument : "var" "state"
-if(state == 0)
+/// @DnDArgument : "var" "st"
+if(st == 0)
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 0AC3C2BC
 	/// @DnDParent : 367521FE
-	/// @DnDArgument : "code" "//check direction$(13_10)move = move_right - move_left$(13_10)$(13_10)hsp = move * walkspeed$(13_10)$(13_10)$(13_10)//Jump$(13_10)if ((place_meeting(x, y+1, obj_wall)) or (place_meeting(x, y+1, obj_plat)and !place_meeting(x,y, obj_plat))) and (jump){$(13_10)	vsp = jumpheight$(13_10)}$(13_10)$(13_10)//H collision$(13_10)if (place_meeting(x+hsp, y, obj_wall)){$(13_10)	while(!place_meeting(x+sign(hsp), y, obj_wall)){$(13_10)		x += sign(hsp)$(13_10)	}$(13_10)	hsp = 0$(13_10)}$(13_10)x += hsp$(13_10)$(13_10)//V collision$(13_10)if (place_meeting(x, y+vsp, obj_wall)){$(13_10)	while(!place_meeting(x, y+sign(vsp), obj_wall)){$(13_10)		y += sign(vsp)$(13_10)	}$(13_10)	vsp = 0$(13_10)}$(13_10)if (place_meeting(x, y+vsp, obj_plat) and vsp >= 0){$(13_10)	if(!place_meeting(x, y, obj_plat)){$(13_10)		while(!place_meeting(x, y+1, obj_plat)){$(13_10)			y+=1$(13_10)		}$(13_10)		vsp = 0$(13_10)	}$(13_10)}		$(13_10)y += vsp$(13_10)$(13_10)//apply gravity$(13_10)vsp = vsp + grv$(13_10)//limit vsp$(13_10)if(vsp>15){$(13_10)	vsp = 30$(13_10)}$(13_10)$(13_10)//check state for animation$(13_10)if(move_left){$(13_10)	image_xscale = 1$(13_10)	image_speed = 1$(13_10)}$(13_10)else if (move_right){$(13_10)	image_xscale = -1$(13_10)	image_speed = 1$(13_10)}$(13_10)if(move == 0){$(13_10)	image_index = 0$(13_10)	image_speed = 0$(13_10)}$(13_10)$(13_10)$(13_10)move_left = 0$(13_10)move_right = 0$(13_10)jump = 0$(13_10)"
+	/// @DnDArgument : "code" "//check direction$(13_10)move = move_right - move_left$(13_10)$(13_10)hsp = move * walkspeed$(13_10)$(13_10)$(13_10)//Jump$(13_10)if ((place_meeting(x, y+1, obj_wall)) or (place_meeting(x, y+1, obj_plat)and !place_meeting(x,y, obj_plat))) and (jump){$(13_10)	vsp = jumpheight$(13_10)}$(13_10)$(13_10)//H collision$(13_10)if (place_meeting(x+hsp, y, obj_wall)){$(13_10)	while(!place_meeting(x+sign(hsp), y, obj_wall)){$(13_10)		x += sign(hsp)$(13_10)	}$(13_10)	hsp = 0$(13_10)}$(13_10)x += hsp$(13_10)$(13_10)//V collision$(13_10)if (place_meeting(x, y+vsp, obj_wall)){$(13_10)	while(!place_meeting(x, y+sign(vsp), obj_wall)){$(13_10)		y += sign(vsp)$(13_10)	}$(13_10)	vsp = 0$(13_10)}$(13_10)if (place_meeting(x, y+vsp, obj_plat) and vsp >= 0){$(13_10)	if(!place_meeting(x, y, obj_plat)){$(13_10)		while(!place_meeting(x, y+1, obj_plat)){$(13_10)			y+=1$(13_10)		}$(13_10)		vsp = 0$(13_10)	}$(13_10)}		$(13_10)y += vsp$(13_10)$(13_10)//apply gravity$(13_10)vsp = vsp + grv$(13_10)//limit vsp$(13_10)if(vsp>15){$(13_10)	vsp = 30$(13_10)}$(13_10)$(13_10)//check state for animation$(13_10)if(move_left){$(13_10)	image_xscale = 1$(13_10)	image_speed = 1$(13_10)}$(13_10)else if (move_right){$(13_10)	image_xscale = -1$(13_10)	image_speed = 1$(13_10)}$(13_10)if(move == 0){$(13_10)	image_index = 0$(13_10)	image_speed = 0$(13_10)}$(13_10)$(13_10)if(y > room_height){$(13_10)	room_restart()$(13_10)}$(13_10)$(13_10)move_left = 0$(13_10)move_right = 0$(13_10)jump = 0$(13_10)"
 	//check direction
 	move = move_right - move_left
 	
@@ -67,6 +67,9 @@ if(state == 0)
 		image_speed = 0
 	}
 	
+	if(y > room_height){
+		room_restart()
+	}
 	
 	move_left = 0
 	move_right = 0

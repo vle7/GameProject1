@@ -1,14 +1,13 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
-/// @DnDHash : 611A0F3C
-/// @DnDArgument : "var" "can_throw"
-/// @DnDArgument : "value" "1"
-if(can_throw == 1)
+/// @DnDHash : 4385F694
+/// @DnDArgument : "expr" "can_throw"
+if(can_throw)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 345F7E15
-	/// @DnDParent : 611A0F3C
+	/// @DnDParent : 4385F694
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_yoyo"
@@ -18,7 +17,8 @@ if(can_throw == 1)
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 350C8866
-	/// @DnDParent : 611A0F3C
+	/// @DnDParent : 4385F694
+	/// @DnDArgument : "expr" "false"
 	/// @DnDArgument : "var" "can_throw"
-	can_throw = 0;
+	can_throw = false;
 }

@@ -9,7 +9,10 @@ audio_play_sound(stage, 0, 1);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 24E5E401
-/// @DnDArgument : "code" "camera = camera_create()$(13_10)$(13_10)var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0)$(13_10)var pm = matrix_build_projection_ortho(768, 576, 1, 10000)$(13_10)$(13_10)camera_set_view_mat(camera, vm)$(13_10)camera_set_proj_mat(camera, pm)$(13_10)$(13_10)view_camera[0] = camera"
+/// @DnDArgument : "code" "spawn_at = 0$(13_10)boss_object = noone$(13_10)$(13_10)camera = camera_create()$(13_10)$(13_10)var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0)$(13_10)var pm = matrix_build_projection_ortho(768, 576, 1, 10000)$(13_10)$(13_10)camera_set_view_mat(camera, vm)$(13_10)camera_set_proj_mat(camera, pm)$(13_10)$(13_10)view_camera[0] = camera"
+spawn_at = 0
+boss_object = noone
+
 camera = camera_create()
 
 var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0)
