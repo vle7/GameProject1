@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "800ad7ef-2f12-4e32-ba6c-dd78ed581d97",
+            "Value": {
+                "id": "630fe1a5-72db-486a-8e80-90ca31f5a551",
+                "resourcePath": "objects\\obj_coin\\obj_coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "80e910ce-f11c-4acb-8aa5-f84723c3d007",
             "Value": {
                 "id": "bc5a9769-e509-4769-99c8-510b0347dba3",
@@ -364,14 +372,6 @@
                 "id": "39e0ee97-9167-4b3b-b374-f8ee4e445a23",
                 "resourcePath": "views\\d87626e4-1e4e-48ed-b9ce-6dc4d8becc4e.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "da64a2de-0b98-4317-a259-5a095c49a275",
-            "Value": {
-                "id": "d1b1203d-3bba-4e2b-9c95-f6a7472d8106",
-                "resourcePath": "objects\\semicircle_movement\\semicircle_movement.yy",
-                "resourceType": "GMObject"
             }
         },
         {

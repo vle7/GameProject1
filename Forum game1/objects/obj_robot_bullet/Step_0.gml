@@ -1,5 +1,3 @@
-speed = 5
-
 x += speed
 
 if(type == 1){

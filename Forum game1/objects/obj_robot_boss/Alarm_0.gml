@@ -8,10 +8,14 @@ if (shoot < 3)
 	bullet.type = irandom_range(0,2)
 	bullet2.type = irandom_range(0,2)
 	bullet3.type = irandom_range(0,2)
-	bullet.theta = 0
-	bullet2.theta = 0
-	bullet3.theta = 0
+	
+	bullet.speed = 5
+	bullet2.speed = 5
+	bullet3.speed = 5
+	
+	
 	show_debug_message(bullet.type)
+	
 	shoot++
 	alarm_set(0,60)
 	

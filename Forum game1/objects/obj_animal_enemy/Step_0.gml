@@ -37,7 +37,7 @@ switch (st)
 
  case stat.flee:
  {
-	vdir = -1; // Bat starts by going down, assuming it will generally be perched high
+	vdir = 1; // Bat starts by going down, assuming it will generally be perched high
 
 	x += hdir * spd;
 	y += vdir * spd;
@@ -50,8 +50,11 @@ switch (st)
 	 if (distance_to_object(obj_player) > safe_distance) {st = stat.idle;}
 	 break;
  }
-	if(y > room_height - 150){
-		st = stat.flee
-		y = room_height - 150
-		alarm_set(0, 30)}
+	
 }
+show_debug_message(st)
+show_debug_message(distance_to_object(obj_player))
+if(y > room_height - 250){
+		st = stat.flee
+		y = room_height - 250
+	}

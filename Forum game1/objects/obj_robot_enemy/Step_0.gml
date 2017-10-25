@@ -13,7 +13,7 @@ if (place_meeting(x+hsp,y,obj_wall))
 	hsp = 0
 	dir *= -1
 }
-x += hsp
+
 
 if (place_meeting(x,y+vsp, obj_wall))
 {
@@ -22,9 +22,18 @@ if (place_meeting(x,y+vsp, obj_wall))
 		y += sign(vsp)
 	}
 	vsp = 0
-	//if (fearofheights) && !position_meeting(x+sprite_width/2)*dir, y+(sprite_height/2)+8, obj_wall)
-	//{
-		//dir += -1
-	//}
+	if (fearofheights) && !position_meeting(x+ (sprite_width/2)*dir, y+(sprite_height/2)+1, obj_wall)
+	{
+		dir *= -1
+	}
 }
-y += vsp
+if(st == 0){
+	if(random_range(0,1) < .01){
+	
+		st = 1
+		alarm_set(0, 10)
+	}
+
+	x += hsp
+	y += vsp
+}
