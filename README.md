@@ -1,4 +1,6 @@
 Play Time
+by:
+Vuong Le, Sabyasachi Pandey, Christina Andre
 
 Controls: 
 a -> move left
@@ -9,5 +11,7 @@ w -> use coin to heal(if you have any)
 
 Fight various enemies with your yoyo. The versatile weapon also allows you to swing from various hooking spots (denoted by a red circle)
 and can destroy projectiles.
+
+
 
 
