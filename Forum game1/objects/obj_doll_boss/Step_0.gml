@@ -1,7 +1,7 @@
 show_debug_message(h)
 if(state == 1)
 {
-	var hit = collision_rectangle(x,y,x+200,y+200,obj_player,false,false);
+	var hit = collision_rectangle(((sprite_width/2)-20)*move+ x,y + (sprite_height/2),x+ move*((sprite_width/2) + 30),y- (sprite_height/2),obj_player,false,false);
 
 	if(hit and obj_player.invincible = 0)
 	{
@@ -46,12 +46,12 @@ else if(state == 0)
 	{
 		move = -1
 	}
-	if(x < 2)
+	if(x < 100)
 	{
 		move = 1
 	}
 	//check for state transitions
-	if(collision_circle(x,y,200,obj_player,false,false))
+	if(collision_rectangle(((sprite_width/2)-20)+ x,y + (sprite_height/2),x+ (sprite_width/2) + 30,y- (sprite_height/2),obj_player,false,false))
 	{
 		state = 1
 		sprite_index = spr_doll_attack
@@ -68,6 +68,8 @@ else if(state == 0)
 	}
 		
 }
+/*
+SCRAPPED
 else if (state == 3){
 	dboss_inv = true
 	
@@ -81,3 +83,4 @@ else if (state == 3){
 	//set dboss_inv back to false
 	
 }
+*/
