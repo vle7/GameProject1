@@ -1,3 +1,6 @@
+//For this enemy the robot would move back and forth on a platoform and randomly
+//shoot projectiles (doesn't have to have the player in front, it can shoot projectiles even
+//facing away from the player.)
 hsp = dir * movespeed
 vsp += grav
 

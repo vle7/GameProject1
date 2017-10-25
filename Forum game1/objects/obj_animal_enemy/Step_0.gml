@@ -1,3 +1,5 @@
+//I intended for this enemy to be similar to the animal boss except instead it swoops at the player and passes through them
+//before flying off and trying again so no need for weakness.
 switch (st)
 {
  case stat.idle:
