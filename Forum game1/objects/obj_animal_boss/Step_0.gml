@@ -1,6 +1,3 @@
-
-
-
 switch (st)
 {
  case state.idle:
@@ -8,7 +5,7 @@ switch (st)
 	 vdir = 0
 	 x += hdir * spd;
 	 
-	 if ((abs(obj_player.x - x) > 200) && (sign(obj_player.x - x) == -hdir)) // If bat is further than turn_distance and facing away from player
+	 if ((abs(obj_player.x - x) > 200) && (sign(obj_player.x - x) == -hdir)) // If further than turn_distance and facing away from player
 	 {
 		hdir = -hdir; // Reverse direction
 	 } 
@@ -43,7 +40,7 @@ switch (st)
  }
  case state.dizzy:
  {
-	 aboss_weak = true	 
+	 aboss_weak = true
 	 break;
  }
  case state.flee:

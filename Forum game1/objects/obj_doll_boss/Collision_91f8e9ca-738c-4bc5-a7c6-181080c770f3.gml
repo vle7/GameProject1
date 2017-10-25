@@ -1,5 +1,5 @@
 if (!dboss_inv){
-	h -= 10
+	h -= 15
 	dboss_inv = true
 	alarm_set(0,30)
 }

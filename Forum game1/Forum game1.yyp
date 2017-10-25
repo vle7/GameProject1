@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0e94afa0-49ef-4519-a427-455e72c2d92a",
+            "Value": {
+                "id": "722e06b4-f731-4263-b2e7-c7391a9c1973",
+                "resourcePath": "objects\\obj_robot_enemy\\obj_robot_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "14e9e6c9-aaaf-496e-a94c-c44c0c7ba906",
             "Value": {
                 "id": "c10a3199-8e8a-408a-8064-7013a3304370",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "57faeda2-1ac7-42b9-b6c0-0ba33c5efe73",
+            "Value": {
+                "id": "22dda460-c1e0-431d-b165-2b8c4100461d",
+                "resourcePath": "sprites\\spr_robot_enemy\\spr_robot_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a33b40d-ec97-45f3-b4a6-bbe8d7dee957",
             "Value": {
                 "id": "77aab5da-a5f3-41ca-8575-4bcc78d50b72",
@@ -179,6 +195,14 @@
             "Value": {
                 "id": "87ece74b-bd9b-4518-a2e0-e28caf69d1c0",
                 "resourcePath": "objects\\obj_robot_boss\\obj_robot_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6c65b034-ea6a-491d-8e31-fbad694b86f5",
+            "Value": {
+                "id": "d137987b-b1f5-4636-a5e0-a8095e86e5c8",
+                "resourcePath": "objects\\obj_animal_enemy\\obj_animal_enemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -316,6 +340,14 @@
                 "id": "e4476859-ba12-45bf-8681-ecbf97a8a883",
                 "resourcePath": "views\\ce8fef44-6b4f-4810-b71f-63ed8a75320f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d31d2d23-dd77-4ecb-8433-3f109bf980d0",
+            "Value": {
+                "id": "3bc6f1bc-17bf-42d9-8db9-c8918c2b8904",
+                "resourcePath": "sprites\\spr_animal_enemy\\spr_animal_enemy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
