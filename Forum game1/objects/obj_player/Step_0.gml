@@ -82,9 +82,9 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 67479543
 	/// @DnDParent : 44EBF446
-	/// @DnDArgument : "code" "xdif = dsin(theta) * xdiff$(13_10)ydif = ydiff + abs(dcos(theta)) * abs(distance - ydiff) $(13_10)$(13_10)x = target.x + xdif$(13_10)y = target.y + ydif$(13_10)$(13_10)theta += 4$(13_10)if(theta == 360){$(13_10)	theta = 0$(13_10)}$(13_10)show_debug_message(ydif)$(13_10)show_debug_message(xdiff)"
-	xdif = dsin(theta) * xdiff
-	ydif = ydiff + abs(dcos(theta)) * abs(distance - ydiff) 
+	/// @DnDArgument : "code" "xdif = dcos(theta) * xdiff$(13_10)ydif = ydiff + abs(dsin(theta)) * abs(distance - ydiff) $(13_10)$(13_10)x = target.x + xdif$(13_10)y = target.y + ydif$(13_10)$(13_10)theta += 4$(13_10)if(theta == 360){$(13_10)	theta = 0$(13_10)}$(13_10)show_debug_message(ydif)$(13_10)show_debug_message(xdiff)"
+	xdif = dcos(theta) * xdiff
+	ydif = ydiff + abs(dsin(theta)) * abs(distance - ydiff) 
 	
 	x = target.x + xdif
 	y = target.y + ydif

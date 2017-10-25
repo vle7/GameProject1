@@ -1,4 +1,4 @@
-show_debug_message(h)
+
 if(state == 1)
 {
 	var hit = collision_rectangle(((sprite_width/2)-20)*move+ x,y + (sprite_height/2),x+ move*((sprite_width/2) + 30),y- (sprite_height/2),obj_player,false,false);
@@ -58,19 +58,16 @@ else if(state == 0)
 		can_attack = false
 		alarm_set(1, 120)
 	}
-	/*
-	if (h < 33){
-		flag = true
+	
+	if(h < 66){
+		if(random_range(0,1) < .001){
+			minion = instance_create_layer(x + 50 ,y,"Instances",obj_doll1)
+		}
 	}
 	
-	if(flag and h < 66){
-		state = 3
-		flag = false
-		minion = instance_create_layer(10,20,"Instances",obj_doll1)
-	}
-	*/
-		
 }
+
+//image_xscale = -move
 /*
 SCRAPPED
 else if (state == 3){

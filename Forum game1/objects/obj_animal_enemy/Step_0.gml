@@ -54,7 +54,8 @@ switch (st)
 }
 show_debug_message(st)
 show_debug_message(distance_to_object(obj_player))
-if(y > room_height - 250){
+/*if(y > room_height - 250){
 		st = stat.flee
 		y = room_height - 250
 	}
+	*/

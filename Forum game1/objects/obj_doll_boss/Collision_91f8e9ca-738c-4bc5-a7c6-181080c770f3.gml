@@ -1,11 +1,12 @@
-if (!dboss_inv){
+if (!boss_inv){
 	h -= 15
-	dboss_inv = true
+	boss_inv = true
 	alarm_set(0,30)
 }
 
 
 if (h <= 0)
 {
-	instance_destroy(obj_doll_boss)
+//	instance_destroy(self)
+	room_goto_next()
 }

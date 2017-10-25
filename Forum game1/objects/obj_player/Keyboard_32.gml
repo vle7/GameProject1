@@ -10,12 +10,12 @@ if(state == 1)
 	/// @DnDHash : 23645D2F
 	/// @DnDInput : 3
 	/// @DnDParent : 722C8DDF
-	/// @DnDArgument : "expr_1" "-20"
+	/// @DnDArgument : "expr_1" "-15"
 	/// @DnDArgument : "var" "state"
 	/// @DnDArgument : "var_1" "vsp"
 	/// @DnDArgument : "var_2" "hsp"
 	state = 0;
-	vsp = -20;
+	vsp = -15;
 	hsp = 0;
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
